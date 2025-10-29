@@ -1,0 +1,13 @@
+html.green-mode {
+  color-scheme: green;
+  --el-component-size: 32px;
+  --el-color-white: #ffffff;
+  --el-color-black: #000000;
+  --el-color-primary: #00800b;
+  --el-color-primary-light-3: #4da654;
+  --el-color-primary-light-5: #80c085;
+  --el-color-primary-light-7: #b3d9b6;
+  --el-color-primary-light-8: #cce6ce;
+  --el-color-primary-light-9: #e6f2e7;
+  --el-color-primary-dark-2: #006609;
+}

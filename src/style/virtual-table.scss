@@ -1,0 +1,61 @@
+@use './variables.scss' as *;
+:deep(.el-table-v2__row-cell > span) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 28px;
+  height: 28px;
+}
+:deep(.el-table-v2__row-cell),
+:deep(.el-tag),
+:deep(.el-table-v2__row-cell .el-button),
+:deep(.el-dropdown) {
+  font-size: 12px !important;
+}
+:deep(.el-table-v2) {
+  --el-table-border: none !important;
+}
+:deep(.el-table-v2__header-cell),
+:deep(.el-table-v2__row-cell) {
+  border-right: none;
+}
+:deep(.el-table-v2__header-wrapper) {
+  border: none !important;
+}
+:deep(.el-table-v2__row) {
+  border-bottom: 1px solid $mainBorderColor !important;
+}
+:deep(.el-table-v2__row:hover) {
+  background-color: $cellHover !important;
+}
+:deep(.el-table-v2__right .el-table-v2__header-cell),
+:deep(.el-table-v2__right .el-table-v2__row-cell) {
+  border-right: none;
+}
+:deep(.el-table-v2__right .el-table-v2__row-cell .dropdown-link) {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  font-weight: 500;
+  color: $menuActiveText;
+}
+:deep(.el-table-v2__header-cell),
+:deep(.el-table-v2__header-wrapper) {
+  background-color: #f3f5f8 !important;
+}
+:deep(.el-table-v2__header-cell-text) {
+  font-size: 12px !important;
+  color: $mainContentText !important;
+  font-weight: 500 !important;
+}
+
+:deep(.el-table-v2 .el-table-v2__row-cell .resource-text) {
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: $mainContentText !important;
+}

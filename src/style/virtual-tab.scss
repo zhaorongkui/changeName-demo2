@@ -1,0 +1,60 @@
+@use './variables.scss' as *;
+:deep(.el-tabs__nav-scroll) {
+  padding: 0px $mainPadding;
+}
+.tabView {
+  margin: 0px (-$mainPadding);
+}
+$tabHeight: 26px;
+.menuTab {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 10px 0px;
+  &-tabs {
+    width: auto;
+    height: $tabHeight;
+    line-height: $tabHeight;
+    margin-right: 8px;
+    background-color: $mainBlockBgColor;
+    padding: 5px;
+    border: 0px solid $mainBlockBgColor;
+    border-radius: $mainBorderRadius;
+    :deep(.el-tabs__header .el-tabs__item.is-active) {
+      margin-top: 0;
+      color: $mainContentText !important;
+      background-color: #ffffff;
+      border-left-color: $mainBlockBgColor;
+      border-right-color: $mainBlockBgColor;
+      border-radius: $mainBorderRadius;
+    }
+    :deep(.el-tabs__item .is-top::after) {
+      border: 0px solid $mainBlockBgColor;
+    }
+    :deep(.el-tabs__nav-scroll) {
+      padding: 0px 4px !important;
+    }
+    :deep(.el-tabs__nav) {
+      border-bottom: 0px solid $mainBorderColor;
+    }
+
+    :deep(.el-tabs__header) {
+      height: $tabHeight;
+      line-height: $tabHeight;
+      border-bottom-color: $mainBlockBgColor;
+    }
+    :deep(.el-tabs--border-card) {
+      border: 0px solid #ffffff !important;
+    }
+    :deep(.el-tabs__item) {
+      font-size: 14px;
+      height: $tabHeight !important;
+      line-height: $tabHeight !important;
+      color: $menuText;
+      background-color: $mainBlockBgColor;
+      padding: 0px !important;
+    }
+    :deep(.el-tabs__active-bar) {
+      background-color: #ffffff;
+    }
+  }
+}

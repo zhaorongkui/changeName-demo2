@@ -1,0 +1,13 @@
+html.orange-mode {
+  color-scheme: orange;
+  --el-component-size: 32px;
+  --el-color-white: #ffffff;
+  --el-color-black: #000000;
+  --el-color-primary: #e38700;
+  --el-color-primary-light-3: #ebab4d;
+  --el-color-primary-light-5: #f1c380;
+  --el-color-primary-light-7: #f7dbb3;
+  --el-color-primary-light-8: #f9e7cc;
+  --el-color-primary-light-9: #fcf3e6;
+  --el-color-primary-dark-2: #b66c00;
+}

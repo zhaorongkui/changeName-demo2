@@ -1,0 +1,35 @@
+{
+  // "references": [
+  //   { "path": "./tsconfig.app.json" },
+  //   { "path": "./tsconfig.node.json" }
+  // ],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": false,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowArbitraryExtensions": true,
+    "noImplicitAny": false,
+    "lib": ["esnext", "dom"],
+    "paths": {
+      "~/*": ["./src/*"],
+      "@/*": ["./src/*"],
+      "~~/*": ["./*"]
+    },
+    "types": ["vite/client", "@types/node", "element-plus/global", "bewg-ui-vue3/dist/global","pinia-plugin-persistedstate"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.js",
+    "src/**/*.d.ts",
+    "components.d.ts"
+  ],
+  "exclude": ["node_modules", "**/*.stories.ts"]
+}

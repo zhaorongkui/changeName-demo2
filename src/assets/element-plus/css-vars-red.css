@@ -1,0 +1,13 @@
+html.red-mode {
+  color-scheme: red;
+  --el-component-size: 32px;
+  --el-color-white: #ffffff;
+  --el-color-black: #000000;
+  --el-color-primary: #c7000b;
+  --el-color-primary-light-3: #d84d54;
+  --el-color-primary-light-5: #e38085;
+  --el-color-primary-light-7: #eeb3b6;
+  --el-color-primary-light-8: #f4ccce;
+  --el-color-primary-light-9: #f9e6e7;
+  --el-color-primary-dark-2: #9f0009;
+}

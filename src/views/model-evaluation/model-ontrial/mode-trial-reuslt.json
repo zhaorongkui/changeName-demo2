@@ -1,0 +1,215 @@
+{
+  "test_records": [
+    {
+      "index": 1,
+      "time": "2025-07-01 08:30:22",
+      "user": "张工程师",
+      "inferenceLatency": 124,
+      "memoryUsage": 856,
+      "squaredError": "0.023/0.152",
+      "dataset": "华东污水厂 | 2025-1-1~2025-3-31 | 328条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 2,
+      "time": "2025-07-01 09:12:45",
+      "user": "李研究员",
+      "inferenceLatency": 98,
+      "memoryUsage": 792,
+      "squaredError": "0.018/0.134",
+      "dataset": "华南污水厂 | 2025-2-15~2025-5-15 | 412条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 3,
+      "time": "2025-07-01 10:05:33",
+      "user": "王技术员",
+      "inferenceLatency": 156,
+      "memoryUsage": 1024,
+      "squaredError": "0.031/0.176",
+      "dataset": "华北污水厂 | 2025-1-10~2025-4-10 | 287条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 4,
+      "time": "2025-07-01 11:23:17",
+      "user": "赵分析师",
+      "inferenceLatency": 87,
+      "memoryUsage": 712,
+      "squaredError": "0.015/0.123",
+      "dataset": "西部污水厂 | 2025-3-1~2025-6-1 | 376条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 5,
+      "time": "2025-07-01 13:45:09",
+      "user": "张工程师",
+      "inferenceLatency": 203,
+      "memoryUsage": 1248,
+      "squaredError": "0.042/0.205",
+      "dataset": "东部污水厂 | 2025-4-5~2025-6-30 | 254条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 6,
+      "time": "2025-07-01 14:30:51",
+      "user": "刘主管",
+      "inferenceLatency": 112,
+      "memoryUsage": 932,
+      "squaredError": "0.027/0.164",
+      "dataset": "华中污水厂 | 2025-1-20~2025-5-20 | 498条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 7,
+      "time": "2025-07-01 15:18:26",
+      "user": "李研究员",
+      "inferenceLatency": 76,
+      "memoryUsage": 684,
+      "squaredError": "0.012/0.110",
+      "dataset": "华东污水厂 | 2025-2-1~2025-5-31 | 521条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 8,
+      "time": "2025-07-01 16:05:44",
+      "user": "王技术员",
+      "inferenceLatency": 134,
+      "memoryUsage": 876,
+      "squaredError": "0.019/0.138",
+      "dataset": "华南污水厂 | 2025-3-10~2025-6-20 | 403条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 9,
+      "time": "2025-07-02 08:42:33",
+      "user": "赵分析师",
+      "inferenceLatency": 92,
+      "memoryUsage": 768,
+      "squaredError": "0.014/0.118",
+      "dataset": "华北污水厂 | 2025-4-1~2025-6-30 | 312条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 10,
+      "time": "2025-07-02 09:55:21",
+      "user": "刘主管",
+      "inferenceLatency": 167,
+      "memoryUsage": 1082,
+      "squaredError": "0.035/0.187",
+      "dataset": "西部污水厂 | 2025-1-5~2025-4-5 | 287条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 11,
+      "time": "2025-07-02 11:08:57",
+      "user": "张工程师",
+      "inferenceLatency": 108,
+      "memoryUsage": 824,
+      "squaredError": "0.021/0.145",
+      "dataset": "东部污水厂 | 2025-2-10~2025-5-10 | 389条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 12,
+      "time": "2025-07-02 13:22:40",
+      "user": "李研究员",
+      "inferenceLatency": 81,
+      "memoryUsage": 702,
+      "squaredError": "0.011/0.105",
+      "dataset": "华中污水厂 | 2025-3-15~2025-6-15 | 432条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 13,
+      "time": "2025-07-02 14:45:18",
+      "user": "王技术员",
+      "inferenceLatency": 142,
+      "memoryUsage": 956,
+      "squaredError": "0.025/0.158",
+      "dataset": "华东污水厂 | 2025-5-1~2025-6-30 | 187条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 14,
+      "time": "2025-07-02 15:33:07",
+      "user": "赵分析师",
+      "inferenceLatency": 118,
+      "memoryUsage": 892,
+      "squaredError": "0.017/0.130",
+      "dataset": "华南污水厂 | 2025-1-15~2025-4-15 | 356条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 15,
+      "time": "2025-07-03 08:25:14",
+      "user": "刘主管",
+      "inferenceLatency": 95,
+      "memoryUsage": 786,
+      "squaredError": "0.013/0.114",
+      "dataset": "华北污水厂 | 2025-2-20~2025-5-20 | 421条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 16,
+      "time": "2025-07-03 09:50:38",
+      "user": "张工程师",
+      "inferenceLatency": 178,
+      "memoryUsage": 1136,
+      "squaredError": "0.038/0.195",
+      "dataset": "西部污水厂 | 2025-4-10~2025-6-30 | 243条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 17,
+      "time": "2025-07-03 11:15:22",
+      "user": "李研究员",
+      "inferenceLatency": 126,
+      "memoryUsage": 864,
+      "squaredError": "0.022/0.148",
+      "dataset": "东部污水厂 | 2025-3-5~2025-6-5 | 398条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 18,
+      "time": "2025-07-03 13:40:55",
+      "user": "王技术员",
+      "inferenceLatency": 104,
+      "memoryUsage": 812,
+      "squaredError": "0.016/0.126",
+      "dataset": "华中污水厂 | 2025-1-1~2025-3-31 | 289条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 19,
+      "time": "2025-07-03 14:58:31",
+      "user": "赵分析师",
+      "inferenceLatency": 87,
+      "memoryUsage": 724,
+      "squaredError": "0.010/0.100",
+      "dataset": "华东污水厂 | 2025-2-5~2025-5-5 | 467条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    },
+    {
+      "index": 20,
+      "time": "2025-07-03 16:20:48",
+      "user": "刘主管",
+      "inferenceLatency": 152,
+      "memoryUsage": 988,
+      "squaredError": "0.029/0.170",
+      "dataset": "华南污水厂 | 2025-3-20~2025-6-20 | 378条",
+      "result": "回流比预测完成（标准误差±0.02）"
+    }
+  ],
+  "model_info": {
+    "model_name": "AAO污水厂外回流比推理模型",
+    "task_type": "回流比动态预测",
+    "performance_standard": "误差范围±0.02",
+    "test_period": "2025-07-01至2025-07-03",
+    "data_sources": [
+      "覆盖华东/华南/华北/西部/东部/华中六大区域",
+      "时间跨度：2025年1月至6月",
+      "单数据集规模：187-521条"
+    ]
+  }
+}

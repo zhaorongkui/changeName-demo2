@@ -1,0 +1,56 @@
+.params-field {
+  height: 300px;
+  box-sizing: border-box;
+  border-top: 1px solid #d7d9dc;
+  border-right: 1px solid #d7d9dc;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    .label-text,
+    .label-icon {
+      line-height: 1;
+      vertical-align: middle;
+    }
+  }
+  &-params {
+    flex: 1;
+    overflow: hidden;
+    .el-scrollbar__view {
+      padding: 10px;
+    }
+  }
+  &-item {
+    margin-bottom: 5px;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--el-tree-node-hover-bg-color, #f5f7fa);
+    }
+    &.isAdd {
+      display: flex;
+      .el-button + .el-button {
+        margin-left: 0;
+      }
+    }
+    .MoreFilled {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -7px;
+    }
+  }
+  .drag {
+    height: 4px;
+    width: 100%;
+    background: #d7d9dc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: row-resize;
+  }
+}

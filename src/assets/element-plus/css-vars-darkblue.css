@@ -1,0 +1,13 @@
+html.darkblue-mode {
+  color-scheme: darkblue;
+  --el-component-size: 32px;
+  --el-color-white: #ffffff;
+  --el-color-black: #000000;
+  --el-color-primary: #00558f;
+  --el-color-primary-light-3: #4d88b1;
+  --el-color-primary-light-5: #80aac7;
+  --el-color-primary-light-7: #b3ccdd;
+  --el-color-primary-light-8: #ccdde9;
+  --el-color-primary-light-9: #e6eef4;
+  --el-color-primary-dark-2: #004472;
+}

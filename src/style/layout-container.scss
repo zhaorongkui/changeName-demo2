@@ -1,0 +1,65 @@
+@use './variables.scss' as *;
+.layout-container {
+  height: calc(100vh - $headerHeight - $mainPadding - $mainHeader + 5px) !important;
+  background-color: #ffffff;
+}
+
+.layout-container .el-header {
+  position: relative;
+  background-color: var(--el-color-primary-light-7);
+  color: var(--el-text-color-primary);
+}
+
+.layout-container .el-aside {
+  color: var(--el-text-color-primary);
+  padding: 0px $mainPadding;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 11;
+  background-color: #fff;
+}
+
+.layout-container .el-menu {
+  border-right: none;
+}
+
+.layout-container .el-main {
+  border-left: 1px solid #e9e8e8;
+  overflow-y: hidden;
+  flex: 1 !important;
+  padding: $mainPadding !important;
+}
+
+.layout-container .toolbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  right: 20px;
+}
+.asideunexpand {
+  display: none;
+}
+.hiddenAside {
+  border-left: none !important;
+}
+.expandiconExpand {
+  position: absolute;
+  left: 200px;
+  bottom: 320px;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateY(-30px);
+  opacity: 0;
+}

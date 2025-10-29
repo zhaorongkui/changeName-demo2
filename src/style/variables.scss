@@ -1,0 +1,86 @@
+$font_family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+
+$fs-24: 24px;
+$fs-18: 18px;
+$fs-16: 16px;
+$fs-14: 14px;
+$fs-12: 12px;
+
+/* sidebar */
+/* menu字体颜色，辅助字体配色  */
+$menuText:#7A869A;
+/*  字体正文颜色 */
+$mainContentText:#172B4D;
+$menuActiveText:#1775FF;
+$menuActiveText-5:#1775FF;
+$menuActiveText-1:rgba(0, 118, 246, 0.1);
+$subMenuActiveText:#666;
+$primary-color: var(--el-color-primary);
+$primary-color-light-3: var(--el-color-primary-light-3);
+$primary-color-light-5: var(--el-color-primary-light-5);
+$primary-color-light-7: var(--el-color-primary-light-7);
+$primary-color-light-9: var(--el-color-primary-light-9);
+$primary-menu-color: var(--el-color-white);
+$secondary-color: #6c757d;
+$background-color: #ffffff;
+
+
+$green:#00B98D;
+$yellow: #FEB453;
+$light_blue:#5FAFFF;
+
+$menuBg:#f6f6f6;
+$menuHover:#e4e9ec;
+
+$subMenuBg:#eff2f3;
+$subMenuHover:#e4e9ec;
+
+$borderColor: #ebeef5;
+$cellHover:#f6f8f8;
+
+/* 常用颜色 */
+$color_primary: var(--el-color-primary);
+$color_info: #909399;
+$color_success: #5cb85c;
+$color_warning: #f90;
+$color_danger: #e33;
+/* 系统页面统一hover颜色 */
+$mainHover:#F1F3F7 ;
+/* ICON主要配色 */
+$mainIconColor:#696E7B;
+/* 描边主要配色 */
+$mainBorderColor:#E3E3E3;
+/* 字体按钮，灰色 */
+$mainCommonButtonTextColor:#7A869A;
+/* 底块色 */
+$mainBlockBgColor:#F1F4F7;
+/*左侧菜单*/
+$sideBarWidth: 208px;
+$pageViewHeight: 80px;
+$sideBarClosedWidth: 60px;
+$shadow1: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+$shadow2: 3px 3px 20px 10px rgba(0, 0, 0, 0.1);
+
+
+/* layout 顶部高度 */
+$headerHeight: 48px;
+$maxPadding: 20px;
+$mainHighpadding: 47px;
+/* 主要布局padding宽度 */
+$mainPadding: 16px;
+/* layout左侧菜单栏，采用此padding */
+$minPadding: 10px;
+/* main面包屑的高度 */
+$mainHeader: 26px;
+$pageViewHeight: 80px;
+/* 通用圆角 */
+$mainBorderRadius:4px;
+
+$searchInputWidth:320px;
+$tableMargin:20px;
+$commonPadding:10px;
+$commonMargin:10px;
+:root {
+  // --el-menu-item-height: 40px;
+  line-height: 1.5;
+}

@@ -1,0 +1,53 @@
+.codemirror-container {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  font-size: 13px;
+  overflow: hidden;
+  border: 1px solid #aaaaaa;
+}
+.CodeMirror-hints {
+  z-index: 10000;
+}
+.codemirror-container .editor_custom_link {
+  cursor: pointer;
+  color: #1474f1;
+  text-decoration: underline;
+}
+.codemirror-container .editor_custom_link:hover {
+  color: #04b4fa;
+}
+.codemirror-container:not(.original-style)
+  .CodeMirror-lines
+  .CodeMirror-placeholder.CodeMirror-line-like {
+  color: #666;
+}
+.codemirror-container:not(.original-style) .CodeMirror,
+.codemirror-container:not(.original-style) .CodeMirror-merge-pane {
+  height: 100%;
+  font-family: consolas !important;
+}
+.codemirror-container:not(.original-style) .CodeMirror-merge,
+.codemirror-container:not(.original-style) .CodeMirror-merge-right .CodeMirror {
+  height: 100%;
+  border: none !important;
+}
+.codemirror-container:not(.original-style) .c-editor--log__error {
+  color: #bb0606;
+  font-weight: bold;
+}
+.codemirror-container:not(.original-style) .c-editor--log__info {
+  color: #333333;
+  font-weight: bold;
+}
+.codemirror-container:not(.original-style) .c-editor--log__warning {
+  color: #ee9900;
+}
+.codemirror-container:not(.original-style) .c-editor--log__success {
+  color: #669600;
+}
+.codemirror-container:not(.original-style) .cm-header,
+.codemirror-container:not(.original-style) .cm-strong {
+  font-weight: bold;
+}

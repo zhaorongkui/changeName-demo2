@@ -1,0 +1,25 @@
+:deep(.el-button--primary:focus) {
+  color: var(--el-color-white);
+  border-color: var(--el-color-primary);
+  background-color: var(--el-color-primary);
+  outline: 0;
+}
+:deep(.el-button--danger:focus) {
+  color: var(--el-color-white);
+  border-color: var(--el-color-danger);
+  background-color: var(--el-color-danger);
+  outline: 0;
+}
+:deep(.el-button.is-plain:focus) {
+  color: var(--el-button-text-color);
+  border-color: var(--el-button-border-color);
+}
+
+:deep(.el-button.is-link:focus) {
+  color: var(--el-button-text-color);
+}
+// :deep(.el-button:hover),:deep(.el-button:focus){
+//   color: var(--el-button-text-color) !important;
+//   border-color: var(--el-button-border-color) !important;
+//   background-color: var(--el-button-bg-color) !important;
+// }

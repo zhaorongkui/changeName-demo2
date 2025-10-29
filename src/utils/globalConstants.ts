@@ -1,0 +1,66 @@
+/*
+ * @Author: lihuihui
+ * @Date: 2025-03-21 11:24:50
+ * @LastEditors: lihuihui
+ * @LastEditTime: 2025-03-31 14:32:51
+ * @Description: 定义全局常量，提升代码复用性，易于维护常量的变更
+ */
+export const FormConstants = {
+  INPUT_PLACEHOLDER_COMMON: '请输入',
+  SELECT_PLACEHOLDER_COMMON: '请选择',
+  SUBMIT: '提交',
+  CONFIRM: '确定',
+  CANCEL: '取消',
+  ADD: '新增',
+  EDIT: '编辑',
+  DELETE: '删除',
+  VIEW: '查看',
+  MESSAGE_TIP_SUCCESS: '操作成功',
+  MESSAGE_BOX_WARNING: '提示',
+  MESSAGE_BOX_ERROR: '错误',
+  MESSAGE_TIP_ERROR: '操作失败',
+  MESSAGE_TIP_CANCEL: '取消操作',
+  OPERATION: '操作',
+  RESET_BUTTON: '重置',
+  SEARCH_BUTTON: '查询',
+  EXPAND: '展开',
+  COLLAPSE: '收起',
+  MORE: '更多',
+  CLEAR: '清空',
+  SAVE: '保存',
+  SELECTED_CONDITIONS: '已选条件',
+  OPTIONAL_CONDITIONS: '可选条件',
+  RANGE_SEPARATOR: '至', //时间选择器--至
+  DATE_PICKER_START_PLACEHOLDER: '开始日期', //时间选择器--开始日期
+  DATE_PICKER_END_PLACEHOLDER: '结束日期', //时间选择器--结束日期
+  TO_BE_SELECT_LIST: '待选列表',
+  SELECTED_LIST: '已选列表',
+  ORG_NAME: '组织名称',
+  ORG_CODE: '组织编码',
+  THIRD_CODE: '第三方编码',
+  ORG_TYPE: '组织类型',
+  ORG_LEVEL: '组织层级',
+  DEPART_TYPE: '部门类型',
+  SOURCE: '来源',
+  ORG_STATUS: '组织状态',
+  UPDATE_BY: '更新人',
+  UPDATE_TIME: '最近更新时间',
+  FORM_VALIDATE_INFO: '此项为必填项',
+  ORG_SEARCH_END: '没有更多了',
+  DELETE_TIP: '确认删除当前组织吗？删除时将同时删除其下所有子组织',
+  DELETE_NOTICE: '请先选择要删除的组织',
+  ENABLED_TIP: '组织{type}失败，暂无当前组织范围授权',
+  ENABLED_CONFIRM: '确认{type}当前组织吗？',
+  ORG_BATCH_DELETE_TIP: '',
+  ORG_PATH: '组织路径',
+  ADD_ORG: '添加组织',
+  ADD_SUB_ORG: '添加子组织',
+  DELETE_ORG: '删除选中组织',
+  AUTH_USER: '授权用户',
+  STOP_TINGYONG: '停用',
+  START_QIYONG: '启用',
+  ADD_DATA_FORM: '新增表单',
+  EDIT_DATA_FORM: '编辑表单',
+  BUSSINESS_OBJECT: '业务对象',
+  BUSSINESS_OBJECT_FORM_FIELD: '表单字段',
+};

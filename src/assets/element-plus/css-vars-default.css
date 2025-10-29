@@ -1,0 +1,15 @@
+html:root {
+  color-scheme: default;
+  --el-component-size: 32px;
+  --el-color-white: #ffffff;
+  --el-color-black: #000000;
+  --el-color-primary: #003894;
+  --el-color-primary-light-3: #252c39;
+  --el-color-primary-light-5: #84a5e6;
+  --el-color-primary-light-7: #b5c9f1;
+  --el-color-primary-light-8: #cedbf5;
+  --el-color-primary-light-9: #e6edfa;
+  --el-color-primary-dark-2: #063ca3;
+  /* 表单管理-表单配置-添加自定义字段，字数个数标识 */
+  --el-color-info: var(--el-color-primary);
+}

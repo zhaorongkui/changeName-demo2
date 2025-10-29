@@ -1,0 +1,98 @@
+/* main区域 */
+.detail-config {
+  @apply h-[calc(100%-40px)] flex-1 flex flex-row bg-white px-6 py-6;
+  border-image-width: 1;
+  border-radius: 20px;
+  .left-content {
+    @apply w-[310px] p-0 pr-6 h-full overflow-hidden overflow-y-auto;
+    border-right: 1px solid #ddd;
+    .tag-type-header {
+      @apply text-[18px] leading-[32px] font-semibold mb-6;
+    }
+    .tag-target {
+      @apply mb-3;
+      .tag-target-header {
+        @apply mb-4 text-sm leading-[21px] flex items-center cursor-pointer;
+        color: rgb(25, 25, 25);
+        .icon {
+          @apply inline-flex ml-2 h-[14px] w-[14px];
+        }
+      }
+      .tag-target-body {
+        @apply flex flex-row flex-wrap overflow-hidden;
+        .isActive {
+          @apply text-white;
+          background: #ff8929;
+        }
+      }
+    }
+  }
+  .right-content {
+    @apply flex-1 pl-8 flex flex-col overflow-hidden;
+  }
+}
+
+.page-filter {
+  @apply pl-2;
+}
+
+.content-wrapper {
+  @apply flex-1  flex flex-col overflow-hidden;
+}
+
+.content-title {
+  @apply flex flex-row justify-between mb-4;
+  h3 {
+    @apply text-lg font-bold h-[32px] leading-[32px];
+    color: rgb(25, 25, 25);
+  }
+  .demo-form-inline {
+    .el-form-item {
+      @apply m-0 ml-2;
+    }
+  }
+}
+.content-main {
+  @apply flex-1 flex flex-col  overflow-hidden justify-items-stretch;
+}
+
+.data-table-container {
+  @apply flex-1 overflow-auto flex flex-col;
+  .table-content {
+    @apply flex-1 overflow-y-auto my-2;
+  }
+}
+
+.table-operate {
+  @apply flex flex-row justify-between items-center mb-2;
+  .el-button {
+    @apply ml-2;
+  }
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 16px 16px 0;
+  .panel-title {
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: left;
+  }
+  .main-content {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    @media (max-width: 768px) {
+      height: auto;
+    }
+  }
+}

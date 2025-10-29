@@ -1,0 +1,41 @@
+.field-variable {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  border-right: 1px solid #d7d9dc;
+  flex-direction: column;
+  &-content {
+    margin-top: 10px;
+    flex: 1;
+  }
+  .field-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+    &:hover {
+      background-color: #f0f1f4;
+    }
+    .text-tag {
+      &[field-type='string'] {
+        color: #409eff;
+        background-color: #ecf5ff;
+      }
+
+      &[field-type='number'] {
+        color: #67c23a;
+        background-color: #f0f9eb;
+      }
+
+      &[field-type='array'] {
+        color: #e6a23c;
+        background-color: #fdf6ec;
+      }
+    }
+  }
+}

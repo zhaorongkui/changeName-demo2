@@ -1,0 +1,50 @@
+/*
+ * @Description: layout 布局样式
+ */
+@use './variables.scss' as *;
+.leftMenu {
+  position: absolute;
+  height: calc(100vh - $headerHeight);
+  top: $headerHeight;
+  left: 0;
+  width: $sideBarWidth;
+  background-color: $primary-color-light-3;
+}
+
+.leftMenu_sideBarClosed {
+  position: absolute;
+  height: calc(100vh - $headerHeight);
+  top: $headerHeight;
+  left: 0;
+  width: $sideBarClosedWidth;
+}
+
+.topView {
+  position: absolute;
+  height: $headerHeight;
+  width: 100%;
+  top: 0rem;
+  left: 0;
+  right: 0;
+}
+
+.appMain {
+  position: absolute;
+  height: calc(100vh - $headerHeight);
+  top: $headerHeight;
+  left: $sideBarWidth;
+  width: calc(100% - $sideBarWidth);
+  background-color: #f2f2f6;
+  color: $mainContentText;
+}
+.appMain_treeunExpand {
+  z-index: 11;
+}
+
+.appMain_sideBarClosed {
+  position: absolute;
+  height: calc(100vh - $headerHeight);
+  top: $headerHeight;
+  left: $sideBarClosedWidth;
+  width: calc(100% - $sideBarClosedWidth);
+}

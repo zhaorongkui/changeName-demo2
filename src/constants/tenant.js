@@ -1,0 +1,1 @@
+export const bewgTenantIds = ['bewg','bewg_ws']

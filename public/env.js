@@ -1,0 +1,1 @@
+window.__bewg_front_env = {}

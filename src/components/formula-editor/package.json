@@ -1,0 +1,73 @@
+{
+  "name": "be-formula-editor",
+  "version": "1.2.0",
+  "private": true,
+  "description": "公式编辑器",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    },
+    "./global": {
+      "types": "./dist/types/global.d.ts",
+      "require": "./dist/global.cjs",
+      "import": "./dist/global.js"
+    },
+    "./*": "./*"
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./*",
+        "./dist/types/*"
+      ]
+    }
+  },
+  "sideEffects": false,
+  "unpkg": "dist/index.iife.min.js",
+  "jsdelivr": "dist/index.iife.min.js",
+  "scripts": {
+    "build": "pnpm run-p build:build build:types && pnpm run build:scss",
+    "build:build": "NODE_ENV=production tsx build/build.ts",
+    "build:types": "vue-tsc --declaration --emitDeclarationOnly",
+    "build:scss": "pnpm run -C src/theme-chalk build",
+    "push": "npm publish --registry=http://10.10.171.99:8081/repository/npm-hosted/"
+  },
+  "dependencies": {
+    "codemirror": "^5.65.18",
+    "js-beautify": "^1.15.1"
+  },
+  "devDependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@pnpm/find-workspace-packages": "^6.0.9",
+    "@pnpm/logger": "^5.0.0",
+    "@types/codemirror": "^5.60.15",
+    "@types/fs-extra": "^11.0.4",
+    "@types/js-beautify": "^1.14.3",
+    "@types/node": "^20.11.25",
+    "camelcase": "^8.0.0",
+    "chalk": "^5.3.0",
+    "consola": "^3.2.3",
+    "element-plus": "^2.8.8",
+    "esbuild": "^0.20.1",
+    "esbuild-plugin-globals": "^0.2.0",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2",
+    "unplugin-vue": "^5.0.4",
+    "vue": "^3.4.21",
+    "vue-tsc": "^2.0.6"
+  }
+}

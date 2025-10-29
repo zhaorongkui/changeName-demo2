@@ -1,0 +1,51 @@
+@use './variables.scss' as *;
+
+.iconfont {
+  color: #409eff;
+}
+
+.black_textColor {
+  color: #333333;
+}
+.white_textColor {
+  color: #ffffff;
+}
+.light_grey_textColor {
+  color: #666666;
+}
+.blue_bg {
+  background-color: var(--el-color-primary);
+}
+
+.green_bg {
+  background-color: $green;
+}
+
+.yellow_bg {
+  background-color: $yellow;
+}
+.light_blue_bg {
+  background-color: $light_blue;
+}
+.primary {
+  color: $primary-color;
+}
+.disabled {
+  color: $secondary-color;
+}
+
+.red-text {
+  color: $color_danger;
+}
+.green-text {
+  color: $color_success;
+}
+.blue-text {
+  color: var(--el-color-primary); //$color_primary;
+}
+.orange-text {
+  color: $color_warning;
+}
+.gray-text {
+  color: #8a8a8a;
+}
